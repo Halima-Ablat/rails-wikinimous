@@ -1,0 +1,9 @@
+<div class="container">
+<%= form_with model: @article do |f| %>
+  <%= f.label :title%>
+  <%= f.text_field :input %>
+  <%= f.label :content %>
+  <%= f.text_field :input %>
+  <%= f.submit class: 'btn btn-primary my-4' %>
+<% end %>
+</div>
